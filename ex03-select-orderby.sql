@@ -39,4 +39,10 @@ SELECT last_name, job_id, department_id, hire_date
 FROM employees
 ORDER BY 3;
 
+-- 여러 열을 기준으로 정렬
+SELECT last_name, job_id, department_id, salary
+FROM employees
+ORDER BY department_id, salary DESC;
+
+
 
